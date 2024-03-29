@@ -139,8 +139,8 @@ public class PistonSimulator : MonoBehaviour
     private float GetLerpT(float currentValue, float initialValue, float unitsRange)
     {
         if (currentValue <= Mathf.Epsilon) { return 0.0f; }
-        var delta = ((currentValue - initialValue) / initialValue) / unitsRange;
-        return Mathf.Clamp01(0.5f + delta);
+        var delta = (currentValue / initialValue) / unitsRange;
+        return delta;
     }
 
     public void StartSimulating()

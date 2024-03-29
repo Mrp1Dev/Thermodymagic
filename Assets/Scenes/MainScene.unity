@@ -3487,12 +3487,12 @@ MonoBehaviour:
   piston: {fileID: 1725407300}
   gasParticlePrefab: {fileID: 5469589201849699865, guid: a7e3f65b7cf9bd84184ff4cbf479785e, type: 3}
   speedRange:
-    min: 3
-    max: 15
-  slowColor: {r: 1, g: 0.9605206, b: 0.5254902, a: 1}
+    min: 1.5
+    max: 12
+  slowColor: {r: 0.8662384, g: 1, b: 0.5254902, a: 1}
   fastColor: {r: 1, g: 0.1462264, b: 0.1462264, a: 1}
-  particlesPerMole: 10
-  maxMoles: 4
+  particlesPerMole: 8
+  maxMoles: 5
 --- !u!1 &1752164037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,7 +4122,7 @@ MonoBehaviour:
   pistonHeightRange:
     min: 0.05
     max: 3.8
-  volumeUnitsRange: 4
+  volumeUnitsRange: 3
   temperatureUnitsRange: 2.5
   lowPressureColor: {r: 0.82864845, g: 1, b: 0.5801887, a: 1}
   highPressureColor: {r: 1, g: 0.5424528, b: 0.5424528, a: 1}
